@@ -5,7 +5,7 @@ ARG GCLOUD_VERSION=253.0.0
 # https://aur.archlinux.org/packages/kubectl-bin/
 ARG KUBECTL_VERSION=v1.9.1
 # https://github.com/kubernetes/helm/releases
-ARG HELM_VERSION=v2.7.2
+ARG HELM_VERSION=v2.15.1
 
 # install dependencies
 RUN apk add --update --no-cache make ca-certificates tar wget openssl python bash
