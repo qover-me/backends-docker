@@ -1,7 +1,7 @@
 FROM docker:stable
 # copied from https://github.com/Artemmkin/helm-gke and adapted
 # we are not using the gcloud version at the moment since it breaks in our docker
-ARG GCLOUD_VERSION=253.0.0
+ARG GCLOUD_VERSION=271.0.0
 # https://aur.archlinux.org/packages/kubectl-bin/
 ARG KUBECTL_VERSION=v1.9.1
 # https://github.com/kubernetes/helm/releases
